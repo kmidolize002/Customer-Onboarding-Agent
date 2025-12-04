@@ -1,0 +1,98 @@
+{
+  "pan_number": "BQGPM7367B",
+  "name": "Ashwani KumarSingh",
+  "date_of_birth": "1990-05-12",
+  "gender": "Male",
+
+  "cibil_score": 768,
+  "score_generation_date": "2025-01-14",
+
+  "contact_information": {
+    "mobile": "+91-9876543210",
+    "email": "rahul.sharma@example.com",
+    "address": "B-204, Green Meadows Society, Andheri East, Mumbai",
+    "pincode": "400069"
+  },
+
+  "credit_summary": {
+    "total_accounts": 4,
+    "active_accounts": 2,
+    "closed_accounts": 2,
+    "total_outstanding_balance": 152000,
+    "secured_loans": 1,
+    "unsecured_loans": 3
+  },
+
+  "accounts": [
+    {
+      "loan_type": "Personal Loan",
+      "bank_name": "HDFC Bank",
+      "account_number": "PLHDFC001239",
+      "opened_on": "2023-04-20",
+      "current_balance": 84000,
+      "sanctioned_amount": 150000,
+      "emi": 5200,
+      "status": "Active",
+      "payment_history": {
+        "dpd_last_12_months": ["000", "000", "000", "000", "000", "000", "000", "010", "000", "000", "000", "000"],
+        "remarks": "1 late payment recorded 8 months ago"
+      }
+    },
+    {
+      "loan_type": "Credit Card",
+      "bank_name": "ICICI Bank",
+      "account_number": "CCICICI887722",
+      "opened_on": "2019-11-11",
+      "current_balance": 12000,
+      "credit_limit": 60000,
+      "status": "Active",
+      "payment_history": {
+        "dpd_last_12_months": ["000", "000", "000", "000", "000", "000", "000", "000", "000", "000", "000", "000"],
+        "remarks": "No late payments"
+      }
+    },
+    {
+      "loan_type": "Car Loan",
+      "bank_name": "SBI Bank",
+      "account_number": "CLSBI990012",
+      "opened_on": "2016-02-01",
+      "closed_on": "2021-02-01",
+      "status": "Closed",
+      "sanctioned_amount": 500000,
+      "closure_reason": "Regular Closure"
+    },
+    {
+      "loan_type": "Consumer Durable Loan",
+      "bank_name": "Bajaj Finance",
+      "account_number": "CDLBF123890",
+      "opened_on": "2022-01-10",
+      "closed_on": "2023-02-14",
+      "status": "Closed",
+      "sanctioned_amount": 45000,
+      "closure_reason": "Regular Closure"
+    }
+  ],
+
+  "enquiries_last_12_months": [
+    {
+      "date": "2024-08-12",
+      "inquired_by": "HDFC Bank",
+      "purpose": "Personal Loan",
+      "status": "Soft Inquiry"
+    },
+    {
+      "date": "2024-11-03",
+      "inquired_by": "ICICI Bank",
+      "purpose": "Credit Card Limit Enhancement",
+      "status": "Soft Inquiry"
+    }
+  ],
+
+  "red_flags": {
+    "write_offs": false,
+    "settlements": false,
+    "suit_filed": false,
+    "wilful_default": false,
+    "comments": "Overall clean bureau record"
+  }
+}
